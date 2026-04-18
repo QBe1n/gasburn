@@ -1,0 +1,14 @@
+{"session_id":"sess-1","timestamp":"2026-04-15T10:00:00Z","model":"claude-opus-4","user_message":"hey","input_tokens":2000,"output_tokens":800,"tools":[]}
+{"session_id":"sess-1","timestamp":"2026-04-15T10:00:30Z","model":"claude-opus-4","user_message":"lol","input_tokens":2200,"output_tokens":900,"tools":[]}
+{"session_id":"sess-1","timestamp":"2026-04-15T10:01:00Z","model":"claude-opus-4","user_message":"nice","input_tokens":2400,"output_tokens":1000,"tools":[]}
+{"session_id":"sess-1","timestamp":"2026-04-15T10:01:30Z","model":"claude-opus-4","user_message":"go on","input_tokens":2600,"output_tokens":1100,"tools":[]}
+{"session_id":"sess-1","timestamp":"2026-04-15T10:02:00Z","model":"claude-opus-4","user_message":"cool","input_tokens":2800,"output_tokens":1200,"tools":[]}
+{"session_id":"sess-1","timestamp":"2026-04-15T10:02:30Z","model":"claude-opus-4","user_message":"ok","input_tokens":3000,"output_tokens":1300,"tools":[]}
+{"session_id":"sess-2","timestamp":"2026-04-16T14:00:00Z","model":"gpt-5","user_message":"price of pepe on dexscreener","input_tokens":50000,"output_tokens":20000,"tools":["dexscreener","web_search"],"wallets":["0x1111111111111111111111111111111111111111"]}
+{"session_id":"sess-2","timestamp":"2026-04-16T14:01:00Z","model":"gpt-5","user_message":"volume on dexscreener","input_tokens":60000,"output_tokens":24000,"tools":["dexscreener","coingecko"],"wallets":["0x1111111111111111111111111111111111111111"]}
+{"session_id":"sess-2","timestamp":"2026-04-16T14:02:00Z","model":"gpt-5","user_message":"market cap trending tokens base","input_tokens":55000,"output_tokens":30000,"tools":["dexscreener","birdeye"],"wallets":["0x1111111111111111111111111111111111111111"]}
+{"session_id":"sess-2","timestamp":"2026-04-16T14:03:00Z","model":"gpt-5","user_message":"find trending on solana","input_tokens":62000,"output_tokens":26000,"tools":["birdeye","defillama"],"wallets":["0x1111111111111111111111111111111111111111"]}
+{"session_id":"sess-2","timestamp":"2026-04-16T14:04:00Z","model":"gpt-5","user_message":"tvl of aerodrome","input_tokens":48000,"output_tokens":22000,"tools":["defillama"],"wallets":["0x1111111111111111111111111111111111111111"]}
+{"session_id":"sess-3","timestamp":"2026-04-17T09:00:00Z","model":"claude-sonnet-4-5","user_message":"swap 0.1 eth for usdc","input_tokens":400,"output_tokens":180,"tools":["uniswap","execute_trade"],"wallets":["0x2222222222222222222222222222222222222222"]}
+{"session_id":"sess-3","timestamp":"2026-04-17T09:01:00Z","model":"claude-sonnet-4-5","user_message":"approve router","input_tokens":300,"output_tokens":120,"tools":["approve","write_contract"],"wallets":["0x2222222222222222222222222222222222222222"]}
+{"session_id":"sess-3","timestamp":"2026-04-17T09:02:00Z","model":"claude-sonnet-4-5","user_message":"send transaction","input_tokens":280,"output_tokens":140,"tools":["sendTransaction"],"wallets":["0x2222222222222222222222222222222222222222"]}

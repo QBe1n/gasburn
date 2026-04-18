@@ -1,0 +1,64 @@
+{
+  "name": "gasburn",
+  "version": "0.1.0",
+  "description": "See where your AI agent tokens and on-chain gas actually go. TUI dashboard for autonomous crypto agents.",
+  "type": "module",
+  "main": "./dist/cli.js",
+  "bin": {
+    "gasburn": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai-agent",
+    "crypto",
+    "web3",
+    "ethereum",
+    "solana",
+    "eliza",
+    "langgraph",
+    "token-usage",
+    "gas-tracking",
+    "cost-tracking",
+    "observability",
+    "developer-tools",
+    "tui"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "QBe1n",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QBe1n/gasburn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QBe1n/gasburn/issues"
+  },
+  "homepage": "https://github.com/QBe1n/gasburn#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "ink": "^5.2.1",
+    "react": "^18.3.1"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^11.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
