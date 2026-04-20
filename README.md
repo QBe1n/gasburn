@@ -82,7 +82,7 @@ Built in one week to scratch our own itch. Expect rough edges. If something is w
 │   LLM spend     $184.22       Gas spent      $41.07       Total  $225.29   │
 │                                                                            │
 │   ┌─ Daily cost ────────────────────────────────────────────────────────┐  │
-│   │  LLM  ██▅▆▇█▂       Gas  ▃▂█▂▁▄▁                                   │  │
+│   │  LLM  ██▅▆▇█▂       Gas  ▃▂█▂▁▄▁                                    │  │
 │   │  Mon Tue Wed Thu Fri Sat Sun                                        │  │
 │   └─────────────────────────────────────────────────────────────────────┘  │
 │                                                                            │
@@ -94,7 +94,7 @@ Built in one week to scratch our own itch. Expect rough edges. If something is w
 │   Idle Chat        $21.03  ( 9%)    gemini-2-flash      $18.86  (10%)      │
 │   Strategy         $13.18  ( 6%)                                           │
 │                                                                            │
-│   ⚠  3 leaks detected · est waste $68.40                                  │
+│   ⚠  3 leaks detected · est waste $68.40                                   │
 │   │                                                                        │
 │   │  idle-chat          2 sessions  · $21.03  — pure chat on Opus          │
 │   │  oversized-model   11 turns     · $34.80  — Opus on tiny prompts       │
